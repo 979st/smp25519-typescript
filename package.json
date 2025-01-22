@@ -1,0 +1,29 @@
+{
+  "name": "smp25519",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/979st",
+  "docs": "typedoc --out docs src",
+  "repository": {
+    "url": "https://github.com/979st/smp25519-typescript"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": ["Protocol", "Messaging", "Secure", "x25519", "chacha20", "blake3", "udp", "sockets", "typescript", "javascript"],
+  "author": "",
+  "license": "UNLICENSED",
+  "description": "Secure Messaging Protocol 25519",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typedoc": "^0.27.6",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^1.2.1",
+    "@noble/curves": "^1.8.1",
+    "@noble/hashes": "^1.7.1"
+  }
+}
